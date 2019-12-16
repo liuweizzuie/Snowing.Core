@@ -1,7 +1,10 @@
 .vs/
+icon/
 
 Snowing.Core/bin
 Snowing.Core/obj
 
 *.user
 *.pfx
+*.nupkg
+

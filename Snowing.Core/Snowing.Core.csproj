@@ -1,28 +1,26 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <TargetFramework>netstandard2.1</TargetFramework>
     <RootNamespace>Snowing</RootNamespace>
     <SignAssembly>true</SignAssembly>
     <AssemblyOriginatorKeyFile>synker.pfx</AssemblyOriginatorKeyFile>
     <Authors>liuweizzuie</Authors>
     <Description>description</Description>
     <PackageProjectUrl>https://github.com/liuweizzuie/Snowing.Core</PackageProjectUrl>
-    <Version>1.0.0</Version>
+    <Version>1.0.1</Version>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
     <PackageIconUrl>https://www.nuget.org/favicon.ico</PackageIconUrl>
     <RepositoryUrl>https://github.com/liuweizzuie/Snowing.Core</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageTags>Snowing</PackageTags>
     <PackageReleaseNotes></PackageReleaseNotes>
+    <AssemblyVersion>1.0.0.1</AssemblyVersion>
+    <FileVersion>1.0.0.1</FileVersion>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Collections\" />
   </ItemGroup>
 
 </Project>

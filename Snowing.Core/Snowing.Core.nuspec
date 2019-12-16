@@ -4,20 +4,24 @@
     <id>$id$</id>
     <version>$version$</version>
     <title>$title$</title>
-    <authors>$author$</authors>
+    <authors>liuweizzuie</authors>
     <owners>$author$</owners>
+    <license type="expression">MIT</license>
     <projectUrl>https://github.com/liuweizzuie/Snowing.Core</projectUrl>
-    <iconUrl>https://www.nuget.org/favicon.ico</iconUrl>
+    <icon>icon\icon_snow.png</icon>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>$description$</description>
     <releaseNotes>Snowing.</releaseNotes>
     <copyright>Copyright 2019</copyright>
     <tags>Snowing</tags>
     <dependencies>
-      <group targetFramework=".NETStandard2.0" />
+      <group targetFramework=".NETStandard2.1" />
       <group>
-        <dependency id="Newtonsoft.Json" version="[11.0,12.0.3)" />
+        <dependency id="Newtonsoft.Json" version="12.0.3" />
       </group>
     </dependencies>
   </metadata>
+  <files>
+    <file src="..\icon\icon_snow.png" target="icon\" />
+  </files>
 </package>

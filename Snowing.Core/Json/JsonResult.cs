@@ -8,6 +8,8 @@ namespace Snowing.Json
     [JsonObject]
     public class JsonResult
     {
+        public static int DefaultStatus { get; set; }
+
         [JsonProperty(PropertyName = "status", Order = 0)]
         public int Status { get; set; }
 
@@ -21,7 +23,7 @@ namespace Snowing.Json
 
         public JsonResult()
         {
-            this.Status = 0;
+            this.Status = DefaultStatus;
             this.Message = "OK";
         }
     }
