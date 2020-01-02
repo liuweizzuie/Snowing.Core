@@ -8,15 +8,15 @@
     <Authors>liuweizzuie</Authors>
     <Description>description</Description>
     <PackageProjectUrl>https://github.com/liuweizzuie/Snowing.Core</PackageProjectUrl>
-    <Version>1.0.1</Version>
+    <Version>1.0.0.6</Version>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
     <PackageIconUrl>https://www.nuget.org/favicon.ico</PackageIconUrl>
     <RepositoryUrl>https://github.com/liuweizzuie/Snowing.Core</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageTags>Snowing</PackageTags>
     <PackageReleaseNotes></PackageReleaseNotes>
-    <AssemblyVersion>1.0.0.2</AssemblyVersion>
-    <FileVersion>1.0.0.2</FileVersion>
+    <AssemblyVersion>1.0.0.6</AssemblyVersion>
+    <FileVersion>1.0.0.6</FileVersion>
   </PropertyGroup>
 
   <ItemGroup>
